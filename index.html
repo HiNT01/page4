@@ -8,10 +8,10 @@
     <title>A Friendindeed Store</title>
     <!-- libraty -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> -->
     <!-- font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- css -->
     <link rel="stylesheet" href="./sassets/css/reset.css">
@@ -60,15 +60,14 @@
                     <img src="./sassets/img/logo (6) 1 (Traced).png" alt="">
                 </a>
                 <form action="" class="search">
-                <input type="text" placeholder="search here ...">
+                <input type="text" placeholder="search here ..." class="search__text">
                 <select name="" id="" class="search__sel">
                     <option value="">All Category</option>
                     <option value="">item2</option>
                     <option value="">item3</option>
                     <option value="">item4</option>
                 </select>
-               
-                <button type="submit" class="search__btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button typebar="submit" class="search__btn"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
                 <ul class="cart">
                     <li class="cart__item"><a href="#">
@@ -78,8 +77,8 @@
                         <i class="fa-solid fa-heart"></i>
                     </a></li>
                     <li class="cart__item"><a href="#">
-                        <i class="fa-solid fa-cart-shopping-fast"></i>
-                        <span class="cart__dot">dot</span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="cart__dot"></span>
                     </a></li>
                 </ul>
             </div>
@@ -87,7 +86,7 @@
                 <ul class="nav__menu">
                     <li class="nav__item">
                         <a href="#"><i class="fa-solid fa-bars"></i>
-                            shop by department 
+                            <span>shop by department</span>
                             <i class="fa-solid fa-caret-down"></i>
                             <ul class="nav__sub-menu">
                                 <li class="nav__subitem"><a href="">department 1</a></li>
@@ -98,39 +97,47 @@
                     </li>
                     
                 </ul>
-                <ul class="nav">
-                    <li class="nav__item"><a href="">home</a></li>
-                    <li class="nav__item">
+                <ul class="navbar">
+                    <li class="navbar__item"><a href="">home</a></li>
+                    <li class="navbar__item">
                         <a href="">product
                             <i class="fa-solid fa-caret-down"></i>
                         </a>
 
-                        <ul class="nav__sub">
-                            <li class="nav__subitem">
+                        <ul class="navbar__sub">
+                            <li class="navbar__subitem">
                                 <a href="#">nav item 1</a>
                             </li>
-                            <li class="nav__subitem">
+                            <li class="navbar__subitem">
                                 <a href="#">nav item 2</a>
                             </li>
-                            <li class="nav__subitem">
+                            <li class="navbar__subitem">
                                 <a href="#">nav item 3</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="nav__item"><a href="">contact us</a></li>
-                    <li class="nav__item"><a href="">about us</a></li>
-                    <li class="nav__item"><a href="">blog</a></li>
+                    <li class="navbar__item"><a href="">contact us</a></li>
+                    <li class="navbar__item"><a href="">about us</a></li>
+                    <li class="navbar__item"><a href="">blog</a></li>
                 </ul>
             </div>
            
         </div>
         <!-- end heade -->
-        <!-- banner -->
-        <div class="banner"></div>
+        <!-- banner + icon -->
+        <div class="banner">
+            <div class="bn-content">
+                
+            </div>
+             <!-- icon -->
+            <div class="icon">
+                icon
+            </div>
+            <!-- end icon -->
+        </div>
+       
         <!-- end banner -->
-        <!-- icon -->
-        <div class="icon"></div>
-        <!-- end icon -->
+        
         <!--  brands-->
         <div class="brands"></div>
         <!-- end brands -->
@@ -160,7 +167,9 @@
         <!-- end -->
     </div>
     <!-- javascript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 
 </body>
 </html>
