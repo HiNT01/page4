@@ -1,4 +1,150 @@
 html {
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.6rem;
 }
+body {
+    font-size: 1.6rem;
+}
+
+
+
+/* header */
+.header {
+    width: 100%;
+    height: 200px;
+    border: 3px solid red;
+}
+.contact {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    margin: 0px 190px;
+    align-items: center;
+    border-bottom: 1px solid #E1E1E1;
+}
+.contact__work {
+    display: flex;
+    list-style: none;
+}
+.contact__item:first-child {
+    border-right: 1px solid #D7D7D7;
+    padding-right: 10px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #2B2B2B;
+}
+.contact__item:first-child > i {
+    font-size: 2rem;
+    margin-right: 5px;
+}
+.contact__item:last-child {
+    padding-left: 12px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #2B2B2B;
+}
+.social {
+    display: flex;
+    list-style: none;
+}
+.social__item  a > i {
+    font-size: 2rem;
+    color: black;
+}
+.social__item + .social__item {
+    margin-left: 20px;
+}
+/* midder */
+.midder {
+    width: auto;
+    display: flex;
+    padding-top: 19px;
+    margin: 0px 190px;
+    align-items: center;
+}
+.logoweb {
+    margin-right: 103px;
+}
+.search {
+    display: flex;
+    flex-grow: 1;
+    background: #F4F4F4;
+}
+.search__sel {
+    padding: 15px 20px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    letter-spacing: -0.025em;
+    color: #2B2B2B;   
+    border: none;
+}
+.cart {
+    display: flex;
+    margin-left: 95px;
+}
+/* nav */
+.nav {
+    width: 100%;
+    display: none;
+}
+/* banner */
+.banner {
+    width: 100%;
+    height: 200px;
+    border: 3px solid red;
+}
+/* icon */
+.icon {
+    width: 100%;
+    height: 200px;
+    border: 3px solid red;
+}
+.brands {
+    width: 100%;
+    height: 200px;
+    border: 3px solid red;
+}
+.deal {
+    width: 100%;
+    height: 200px;
+    border: 3px solid red;
+}
+.list-product {
+    width: 100%;
+    height: 200px;
+    border: 3px solid red;
+}
+.letter {
+    width: 100%;
+    height: 200px;
+    border: 3px solid red;
+}
+.related {
+    width: 100%;
+    height: 200px;
+    border: 3px solid red;
+}
+.addcart {
+    width: 100%;
+    height: 200px;
+    border: 3px solid red;
+}
+.lorem {
+    width: 100%;
+    height: 200px;
+    border: 3px solid red;
+}
+.footer {
+    width: 100%;
+    height: 200px;
+    border: 3px solid red;
+}
+
+/* banner */
+
+  
