@@ -1,0 +1,128 @@
+.banner {
+    background-image: url("../img/product-bn.png");
+    min-height: 399px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.bn-content {
+    position: static;
+}
+.banner__title {
+    font-weight: 400;
+    font-size: 4.8rem;
+    line-height: 122%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Audiowide', cursive;
+}
+.banner__map {
+    text-align: center;
+}
+.banner__map a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    /* identical to box height, or 170% */
+    text-transform: capitalize;
+    letter-spacing: -0.025em;
+    
+    color: #FFFFFF;
+}
+.banner__map span {
+    margin: 0px 10px;
+    font-size: 2rem;
+}
+/* info */
+.info {
+    width: 100%;
+    padding: 67px 190px 91px;
+
+}
+.info__map {
+    margin-bottom: 59px;
+}
+.info__map a:nth-child(2) {
+    margin: 0px 29px;
+}
+.info__map > a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #3E3D3F;
+    text-transform: capitalize;
+}
+.info__map > a:last-child{
+    color: #74B6C7;
+}
+/* info__product */
+.info__product {
+    display: flex;
+    justify-content: space-between;
+}
+.info__img {
+    margin-right: 53px;
+}
+.info__img  img:hover {
+    transform: scale(1.1);
+    transition: ease 0.5s;
+}
+.list__img {
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+.info__content {
+    flex-grow: 1;
+}
+.info__name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* or 121% */
+    text-transform: uppercase; 
+    color: #555A70;
+}
+.info__descrption {
+    margin: 15px 0px 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 172%;
+    letter-spacing: -0.025em;
+    color: #3E3D3F;
+}
+.info__descrption > ul {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.info__amount {
+    display: flex;
+}
+.info__amount > button {
+    padding: 14px 26px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.info__amount > span {
+    width: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.btn {
+    margin-top: 29px ;
+    background: #74B6C7;
+    border: 2.99139px solid #74B6C7;
+    color: #fff;
+    padding: 12px 43px;
+}
