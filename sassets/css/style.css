@@ -63,7 +63,7 @@ body::-webkit-scrollbar {
     color: #fff;
 }
 .center {
-    margin:50%;
+    margin-left:50%;
     transform: translateX(-50%);
 }
 /* block btn */
@@ -452,6 +452,10 @@ body::-webkit-scrollbar {
     align-items:center;
     display:flex;
 }
+.brands__item >a {
+    width: 100%;
+}
+
 /* deal */
 .deal {
     width: 100%;
@@ -998,7 +1002,7 @@ body::-webkit-scrollbar {
 .footer__goto > form {
     display: flex;
     align-items: center;
-
+    flex-wrap: wrap;
 }
 
 .footer__goto > form >input {
