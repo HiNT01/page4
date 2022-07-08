@@ -71,15 +71,13 @@
     .logoweb {
         width: 50%;
         margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
     }
-    .icon-menu {
-        padding-left: 20px;
-        display: block;
-        width: 25%;
-        cursor: pointer;
-        z-index: 10;
     
-    }
+
     .midder {
        margin:0px;
        flex-wrap:wrap; 
@@ -97,6 +95,22 @@
     .cart__item:nth-child(2) {
         display: none;
     }
+    /* icon menu */
+    .icon-menu,
+    .icon-menu--close {
+        padding-left: 20px;
+        display: block;
+        width: 25%;
+        cursor: pointer;
+        z-index: 5;
+        background-color: transparent;
+        border: 0;
+        padding: 20px;
+        
+    }
+   .icon-menu--close {
+    font-size: 3rem;
+   }
     .nav {
         position: absolute;
         flex-direction: column;
@@ -112,12 +126,12 @@
         display: none;
     }
     .nav__menu {
-        margin-top: 100px;
         width: 100%;
         padding: 0;
         background-color: #fff;
         max-height: 70px;
         overflow: hidden;
+        display:none;
     }
     .nav__item > a {
         display: block;
@@ -134,11 +148,17 @@
         color: #000;
     }
     .navbar {
+        margin-top: 80px;
         flex-direction: column;
         
     }
     .navbar__item > a {
         color: #000;
+    }
+    /* open */
+    .open {
+        display: block;
+        z-index: 9;
     }
     /* banner */
     .banner {
@@ -168,7 +188,8 @@
         left: 0;
         top: 0;
         padding: 20px;
-        background-image: url("../img/index-slide-01 2.png");
+        background-color: #000;
+        /* background-image: url("../img/index-slide-01 2.png"); */
         background-size:contain;
         
     } 
@@ -304,5 +325,37 @@
     .footer__goto {
         width:100%;
         margin-top:50px;
+    }
+    /* product */
+    
+    .info__product{
+        flex-direction: column;
+    }
+    .info__content {
+        display:flex;
+        flex-direction:column;
+    }
+    .info__img {
+        margin: 0;
+    }
+    .info__img > img {
+        width:100%;
+    }
+    .list__img {
+        width:100%;
+    }
+    .list__img > img {
+        width:calc((100% -10px)/3)
+    }
+    .info__name {
+        font-size: 2rem;
+        line-height:3rem;
+    }
+    .info__descrption {
+        order: 4;
+        margin-top:50px;
+    }
+    .info__add {
+        margin-top:30px;
     }
 }

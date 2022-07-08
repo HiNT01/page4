@@ -66,6 +66,7 @@ body::-webkit-scrollbar {
     margin-left:50%;
     transform: translateX(-50%);
 }
+
 /* block btn */
 .btn {
     margin-top: 47px;
@@ -147,6 +148,9 @@ body::-webkit-scrollbar {
 
 /* midder */
 .icon-menu {
+    display: none;
+}
+.icon-menu--close {
     display: none;
 }
 .midder {
